@@ -16,3 +16,21 @@
 
     transition: 0.2s;
 }
+
+html, body, #root {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #333541;
+}
+
+#root {
+    display: flex;
+}
+.route-page {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #383a47;
+}

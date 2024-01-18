@@ -1,0 +1,14 @@
+.nav {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-logo-container {
+    height: 7vh;
+}
+.nav-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
